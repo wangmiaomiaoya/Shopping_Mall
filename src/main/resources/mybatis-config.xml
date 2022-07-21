@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<!-- configuration标签内的所有标签是有顺序的，不可以随意调换位置，必须是properties，settings...，可以没有，有就必须在对应的位置-->
+<configuration>
+
+    <!--
+       settings配置：都是mybatis的底层核心配置
+    -->
+    <settings>
+        <!--开启下划线映射驼峰-->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+
+</configuration>
